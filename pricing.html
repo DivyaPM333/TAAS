@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pricing – TAAS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav" role="navigation" aria-label="Primary Navigation">
+    <div class="nav-container">
+      <div class="brand" aria-label="TAAS Logo">
+        <i class="fa-solid fa-fingerprint"></i> TAAS
+      </div>
+      <button class="nav-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="main-navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="nav-main" id="main-navigation" role="menubar">
+        <ul>
+          <li><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
+          <li class="nav-dropdown" tabindex="0">
+            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false" role="menuitem">
+              Solutions <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-menu" role="menu" aria-label="Solutions submenu">
+              <a href="asset-management.html" role="menuitem">Asset Management</a>
+              <a href="license-management.html" role="menuitem">License Management</a>
+              <a href="authentication-traceability.html" role="menuitem">Authentication & Traceability</a>
+              <a href="rfid-solution.html" role="menuitem">RFID Solution</a>
+            </div>
+          </li>
+          <li class="nav-dropdown" tabindex="0">
+            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false" role="menuitem">
+              Industries <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-menu" role="menu" aria-label="Industries submenu">
+              <a href="industries.html#retail" role="menuitem">Retail</a>
+              <a href="industries.html#healthcare" role="menuitem">Healthcare</a>
+              <a href="industries.html#manufacturing" role="menuitem">Manufacturing</a>
+              <a href="industries.html#logistics" role="menuitem">Logistics & Supply Chain</a>
+              <a href="industries.html#aviation" role="menuitem">Aviation</a>
+              <a href="industries.html#food-beverage" role="menuitem">Food & Beverage</a>
+              <a href="industries.html#automotive" role="menuitem">Automotive</a>
+              <a href="industries.html#pharmaceuticals" role="menuitem">Pharmaceuticals</a>
+            </div>
+          </li>
+          <li><a href="pricing.html" class="nav-link nav-btn" role="menuitem">Pricing</a></li>
+          <li><a href="about.html" class="nav-link" role="menuitem">About</a></li>
+          <li><a href="blog.html" class="nav-link" role="menuitem">Blog</a></li>
+          <li class="nav-dropdown" tabindex="0">
+            <button class="nav-link nav-btn" aria-haspopup="true" aria-expanded="false" aria-label="Login Menu" role="menuitem">
+              Login <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-menu" role="menu" aria-label="Login submenu">
+              <a href="login.html?module=Asset%20Management" role="menuitem">Asset Management Module</a>
+              <a href="login.html?module=License%20Management" role="menuitem">License Management Module</a>
+              <a href="login.html?module=Authentication%20%26%20Traceability" role="menuitem">Authentication & Traceability Module</a>
+              <a href="login.html?module=RFID" role="menuitem">RFID Module</a>
+            </div>
+          </li>
+          <li>
+            <a href="#schedule-demo-section" class="nav-schedule-btn" role="button">Schedule a Demo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main role="main" tabindex="-1">
+    <section class="section" aria-label="Pricing Plans">
+      <h1 class="section-title">Pricing</h1>
+      <p class="section-paragraph" style="max-width: 650px; margin: 0 auto 50px auto;">
+        Choose from our premium, flexible pricing plans designed to meet the
+        diverse needs of businesses—from startups to enterprises. Each solution
+        is modular and scalable. Contact us for personalized quotes.
+      </p>
+      <div class="pricing-container">
+        <article class="pricing-card" tabindex="0" aria-labelledby="asset-price-title">
+          <i class="fa-solid fa-box-open pricing-icon" aria-hidden="true"></i>
+          <h2 id="asset-price-title">Asset Management</h2>
+          <div class="pricing-separator"></div>
+          <div class="price-range">₹10,000–₹50,000</div>
+          <p class="price-desc">
+            Real-time tracking, inventory audits, compliance monitoring, and
+            customizable dashboards.
+          </p>
+          <button class="price-btn" aria-label="Request more details for Asset Management pricing">Request Info</button>
+        </article>
+        <article class="pricing-card" tabindex="0" aria-labelledby="license-price-title">
+          <i class="fa-solid fa-id-card pricing-icon" aria-hidden="true"></i>
+          <h2 id="license-price-title">License Management</h2>
+          <div class="pricing-separator"></div>
+          <div class="price-range">₹12,000–₹55,000</div>
+          <p class="price-desc">
+            Automate renewals, compliance alerts, audit logs, and secure data
+            handling.
+          </p>
+          <button class="price-btn" aria-label="Request more details for License Management pricing">Request Info</button>
+        </article>
+        <article class="pricing-card" tabindex="0" aria-labelledby="auth-price-title">
+          <i class="fa-solid fa-shield-check pricing-icon" aria-hidden="true"></i>
+          <h2 id="auth-price-title">Authentication & Traceability</h2>
+          <div class="pricing-separator"></div>
+          <div class="price-range">₹15,000–₹60,000</div>
+          <p class="price-desc">
+            End-to-end product authenticity, secure tags, and digital trace
+            logs.
+          </p>
+          <button class="price-btn" aria-label="Request more details for Authentication & Traceability pricing">Request Info</button>
+        </article>
+        <article class="pricing-card" tabindex="0" aria-labelledby="rfid-price-title">
+          <i class="fa-solid fa-rss pricing-icon" aria-hidden="true"></i>
+          <h2 id="rfid-price-title">RFID Solution</h2>
+          <div class="pricing-separator"></div>
+          <div class="price-range">₹8,000–₹45,000</div>
+          <p class="price-desc">
+            Automated supply chain visibility, instant scans, and scalable
+            deployments.
+          </p>
+          <button class="price-btn" aria-label="Request more details for RFID Solution pricing">Request Info</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="schedule-demo-section" id="schedule-demo-section" aria-label="Schedule a Demo">
+      <p class="schedule-demo-text">
+        Interested in a personalized plan? Schedule a demo with our experts
+        today.
+      </p>
+      <div class="schedule-demo-button">
+        <button type="button" aria-label="Schedule a demo">Schedule a Demo</button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="footer-logo" aria-label="TAAS Logo">
+      <i class="fa-solid fa-fingerprint"></i> TAAS
+    </div>
+    <div class="footer-about">Traceability As A Service</div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="asset-management.html">Asset Management</a>
+      <a href="industries.html">Industries</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="login.html">Login</a>
+      <a href="pricing.html">Pricing</a>
+    </nav>
+    <div class="footer-contact">
+      <span><i class="fa-solid fa-envelope"></i> samarth.kulshrestha@mpimanipal.com</span>
+      <span><i class="fa-solid fa-mobile-screen-button"></i> 7676217544</span>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2025 TAAS – Traceability As A Service. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

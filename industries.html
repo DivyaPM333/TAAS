@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Industries – TAAS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="brand"><i class="fa-solid fa-fingerprint"></i> TAAS</div>
+      <button class="nav-toggle"><i class="fa fa-bars"></i></button>
+      <div class="nav-main">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-dropdown">
+            <a href="#" class="nav-link">Solutions <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="asset-management.html">Asset Management</a>
+              <a href="license-management.html">License Management</a>
+              <a href="authentication-traceability.html">Authentication & Traceability</a>
+              <a href="rfid-solution.html">RFID Solution</a>
+            </div>
+          </li>
+          <li class="nav-dropdown">
+            <a href="#" class="nav-link">Industries <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="#retail">Retail</a>
+              <a href="#healthcare">Healthcare</a>
+              <a href="#manufacturing">Manufacturing</a>
+              <a href="#logistics">Logistics & Supply Chain</a>
+              <a href="#aviation">Aviation</a>
+              <a href="#food">Food & Beverage</a>
+              <a href="#automotive">Automotive</a>
+              <a href="#pharma">Pharmaceuticals</a>
+            </div>
+          </li>
+          <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-dropdown">
+            <button class="nav-link nav-btn">Login <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-menu">
+              <a href="login.html?module=Asset%20Management">Asset Management Module</a>
+              <a href="login.html?module=License%20Management">License Management Module</a>
+              <a href="login.html?module=Authentication%20%26%20Traceability">Authentication & Traceability Module</a>
+              <a href="login.html?module=RFID">RFID Module</a>
+            </div>
+          </li>
+          <li><a href="index.html#schedule-demo-section" class="nav-schedule-btn">Schedule a Demo</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Industries Section -->
+  <div class="section">
+    <h1 class="section-title">Industries We Serve</h1>
+    <p class="section-paragraph">TAAS empowers organizations across sectors with traceability, compliance, and automation solutions.</p>
+    <div class="solutions-grid">
+      <div class="solution-card" id="retail">
+        <img src="https://images.unsplash.com/photo-1568890413189-50a0c46ffb5c?auto=format&fit=crop&w=600&q=60" alt="Retail industry" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Retail</h3>
+        <p>Improve inventory accuracy, prevent shrinkage, and manage distributed stores seamlessly.</p>
+      </div>
+      <div class="solution-card" id="healthcare">
+        <img src="https://images.unsplash.com/photo-1588776814546-5a4409e0b2a3?auto=format&fit=crop&w=600&q=60" alt="Healthcare industry" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Healthcare</h3>
+        <p>Track essential medical equipment and regulatory expiration dates accurately.</p>
+      </div>
+      <div class="solution-card" id="manufacturing">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=60" alt="Manufacturing" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Manufacturing</h3>
+        <p>Deploy RFID and automation to gain real-time insights into production and material flows.</p>
+      </div>
+      <div class="solution-card" id="logistics">
+        <img src="https://images.unsplash.com/photo-1582560472605-dc4215a8b9de?auto=format&fit=crop&w=600&q=60" alt="Logistics" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Logistics & Supply Chain</h3>
+        <p>Optimize asset movement, reduce delays, and secure every transfer point.</p>
+      </div>
+      <div class="solution-card" id="aviation">
+        <img src="https://images.unsplash.com/photo-1610829359356-fd8ff370a6f3?auto=format&fit=crop&w=600&q=60" alt="Aviation" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Aviation</h3>
+        <p>Keep your ground assets and high-value equipment accounted for in real time.</p>
+      </div>
+      <div class="solution-card" id="food">
+        <img src="https://images.unsplash.com/photo-1576843801166-e6337e3d9c75?auto=format&fit=crop&w=600&q=60" alt="Food industry" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Food & Beverage</h3>
+        <p>Enhance shelf-life tracking, prevent wastage, and assure traceability in supply chains.</p>
+      </div>
+      <div class="solution-card" id="automotive">
+        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=600&q=60" alt="Automotive" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Automotive</h3>
+        <p>Track components, subassemblies, and ensure part authenticity across lines.</p>
+      </div>
+      <div class="solution-card" id="pharma">
+        <img src="https://images.unsplash.com/photo-1588776814677-9d0a6af75bbd?auto=format&fit=crop&w=600&q=60" alt="Pharma" style="width:100%;border-radius:12px;height:160px;object-fit:cover;">
+        <h3>Pharmaceuticals</h3>
+        <p>End-to-end traceability for cartons, pallets, doses, and batch-based tracking.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-logo"><i class="fa-solid fa-fingerprint"></i> TAAS</div>
+    <div class="footer-about">Traceability As A Service</div>
+    <div class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="asset-management.html">Asset Management</a>
+      <a href="industries.html">Industries</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+    <div class="footer-contact">
+      <span><i class="fa-solid fa-envelope"></i> samarth.kulshrestha@mpimanipal.com</span>
+      <span><i class="fa-solid fa-mobile-screen-button"></i> 7676217544</span>
+    </div>
+    <div style="margin-top:5px;font-size:0.96em;">&copy; 2025 TAAS – Traceability As A Service. All rights reserved.</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
